@@ -62,6 +62,14 @@ If you leave the guidance field empty, the app uses **"Korjaa kieliasu ja parann
 
 The project uses Playwright for end-to-end testing. Tests are located in the `tests/` directory.
 
+## Deployment (GitHub Pages)
+
+The app deploys automatically to GitHub Pages on push to `main`.
+
+**One-time setup**: In your repo, go to **Settings → Pages** and set **Source** to **GitHub Actions**.
+
+The site will be available at `https://<username>.github.io/chatgpt-live-edit/`.
+
 ## Architecture & Guidelines
 
 - **Architecture**: See [AGENTS.md](./AGENTS.md#architecture) for detailed architecture documentation
